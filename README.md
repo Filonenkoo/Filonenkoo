@@ -1,26 +1,26 @@
-ImageScraper :page_with_curl:
+attempte :page_with_curl:
 ============
 A high performance, easy to use, multithreaded command line tool which downloads images from the given webpage.
 
 | Build Status | Downloads | Test Coverage |
 | ------------ | --------- | ------------- |
-| [![Build Status](https://travis-ci.org/sananth12/ImageScraper.svg?branch=master)](https://travis-ci.org/sananth12/ImageScraper) | [![PyPi downloads](http://img.shields.io/badge/downloads-30k%20total-blue.svg)](https://pypi.python.org/pypi/ImageScraper) | [![Coverage Status](https://coveralls.io/repos/sananth12/ImageScraper/badge.svg?branch=coverage)](https://coveralls.io/r/sananth12/ImageScraper?branch=coverage) |
+| [![Build Status](https://travis-ci.org/sananth12/attempte.svg?branch=master)](https://travis-ci.org/sananth12/attempte) | [![PyPi downloads](http://img.shields.io/badge/downloads-30k%20total-blue.svg)](https://pypi.python.org/pypi/attempte) | [![Coverage Status](https://coveralls.io/repos/sananth12/attempte/badge.svg?branch=coverage)](https://coveralls.io/r/sananth12/attempte?branch=coverage) |
 
-#### Demo
+# attempte
 Click [here](http://showterm.io/d3aef5bc3f37cd49757d1#fast) to see it in action!
 
 Download
 --------
 ### tar file:
-Grab the latest stable build from **- Pip: [https://pypi.python.org/pypi/ImageScraper](https://pypi.python.org/pypi/ImageScraper)** 
+Grab the latest stable build from **- Pip: [https://pypi.python.org/pypi/attempte](https://pypi.python.org/pypi/attempte)** 
 
 ### pip install (recommended):
 You can also download using pip:
 ```sh
-$ pip install ImageScraper
+$ pip install attempte
 ``` 
 #### **Dependencies**
-Note that ``ImageScraper`` depends on ``lxml``, ``requests``, ``setproctitle``, and ``future``. 
+Note that ``attempte`` depends on ``lxml``, ``requests``, ``setproctitle``, and ``future``. 
 If you run into problems in the compilation of ``lxml`` through ``pip``, install the ``libxml2-dev`` and ``libxslt-dev`` packages on your system.
 
 Usage
@@ -65,7 +65,7 @@ Extract the contents of the tar file.
 
 
 ```sh
-$ cd ImageScraper/
+$ cd attempte/
 $ python setup.py install
 $ image-scraper --max-images 10 [url to scrape]
 
@@ -117,7 +117,7 @@ If you want to add features, improve them, or report issues, feel free to send a
 
 License
 -------
-![GPL V3](https://raw.githubusercontent.com/sananth12/ImageScraper/master/images/gpl.png)
+![GPL V3](https://raw.githubusercontent.com/sananth12/attempte/master/images/gpl.png)
 
 
-[![Analytics](https://ga-beacon.appspot.com/UA-60764448-1/ImageScraper/README.md)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://ga-beacon.appspot.com/UA-60764448-1/attempte/README.md)](https://github.com/igrigorik/ga-beacon)
